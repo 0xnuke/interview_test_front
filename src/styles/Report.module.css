@@ -1,0 +1,240 @@
+.container {
+    height: 80vh;
+    overflow: auto;
+}
+
+.postContainer {
+    margin: 20px 16px
+}
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userContainer {
+    display: flex;
+    align-items: center;
+}
+
+.userImage svg {
+    font-size: 40px;
+    color: var(--gray-font-color);
+    margin-right: 12px;
+}
+
+.nameContainer p {
+    font-size: 13px;
+}
+
+.userRight {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.timeContainer {
+    color: var(--gray-font-color);
+    display: flex;
+    align-items: center;
+}
+
+.timeContainer svg {
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.timeContainer span {
+    font-size: 14px;
+}
+
+.contentContainer {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.contentContainer h5 {
+    color: var(--gray-font-color);
+}
+
+.imageContainer h5 {
+    color: var(--gray-font-color);
+}
+
+.imageContainer div {
+    display: flex;
+    column-gap: 10px;
+    font-size: 60px;
+    color: var(--gray-font-color);
+}
+
+.fileContainer {
+    margin: 20px 0;
+}
+
+.fileContainer h5 {
+    margin-bottom: 10px;
+    color: var(--gray-font-color);
+}
+
+.fileContainer div {
+    display: flex;
+    align-items: center;
+}
+
+.fileContainer div svg {
+    font-size: 20px;
+    color: var(--gray-font-color);
+    margin-right: 10px;
+}
+
+.fileContainer div span{
+    color: var(--pr-font-color);
+}
+
+.middleContainer{
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--blue-color);
+    padding: 0 20px;
+}
+
+.middleActivity{
+    display: flex;
+    color: var(--gray-font-color);
+}
+
+.middleActivity p{
+    border-right: var(--border-gray) solid 2px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.middleActivity p:first-child{
+    padding-left: 0;
+}
+
+.middleActivity p:last-child{
+    border-right: none;
+
+}
+
+.middleActivity p:hover{
+    color: var(--black-font-color);
+}
+
+.middleView{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.middleView:hover{
+    opacity: .6; 
+}
+
+
+.middleView p{
+    color: var(--pr-font-color);   
+    margin-right: 6px;
+}
+
+.middleView svg{
+    color: var(--pr-font-color);   
+}
+
+.btnContainer{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.btnContainer button{
+    border: 1px solid var(--border-pr);
+    background-color: var(--white-color);
+    border-radius: 100px;
+    padding: 10px 0;
+    width: 180px;
+    cursor: pointer;
+    color: var(--pr-font-color);
+}
+
+.btnContainer button:hover{
+    opacity: .6;
+}
+
+.btnContainer button svg{
+    margin-right: 6px;
+}
+
+.commentContainer{
+    border-top: solid 1px var(--border-gray);
+    padding: 0 16px;
+}
+
+.commentUserContainer{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.commentUserContainer div svg{
+    font-size: 40px;
+    color: var(--border-gray);
+    margin-right: 12px;
+}
+
+.commentUserContainer div p{
+    font-size: 12px;
+}
+
+.commentStatus{
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+
+
+.leftCommentStatus{
+    display: flex;
+    column-gap: 16px;
+}
+
+.leftCommentStatus p{
+    font-size: 14px;
+}
+
+.leftCommentStatus p:first-child{
+    color: var(--gray-font-color);
+}
+
+.leftCommentStatus p:last-child{
+    color: var(--pr-font-color);
+}
+
+.rightCommentStatus{
+    display: flex;
+    column-gap: 16px;
+    color: var(--pr-font-color);
+}
+
+.rightCommentStatus div {
+    cursor: pointer;
+}
+.rightCommentStatus div:hover {
+    opacity: .6;
+}
+
+
+.rightCommentStatus div svg{
+    margin-right: 6px;
+}

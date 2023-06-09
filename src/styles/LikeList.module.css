@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    align-items: center;
+    margin-top: 20px;
+    height: 40vh;
+    width: 100%;
+    overflow: auto;
+}
+
+
+
+
+
+.cardContainer {
+    display: flex;
+    align-items: center;
+}
+
+.idContainer {
+    border-radius: 100px;
+    background-color: #28273e;
+    color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+
+.cardContainerBox {
+    display: flex;
+    border: solid 2px var(--border-gray);
+    border-radius: 6px;
+    width: 500px;
+    padding: 6px 8px;
+    justify-content: space-between;
+}
+
+.cardContainerBox:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+}
+
+.cardLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImage {
+    font-size: 40px;
+    color: var(--gray-color);
+    padding-right: 12px;
+}
+
+.userContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.userContainer p:last-child {
+    font-size: 14px;
+}
+
+.reportContainer {
+    display: flex;
+    margin-top: 4px;
+}
+
+.reportContainer svg {
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.reportContainer p {
+    font-size: 12px;
+}
+
+.likeContainer {
+    display: flex;
+    align-items: center;
+
+}
+
+.likeContainer div {
+    width: 2px;
+    height: 40px;
+    background-color: var(--border-gray);
+}
+
+.likeContainer svg {
+    color: var(--pr-font-color);
+    margin: 0 12px;
+    font-size: 20px;
+}
+
+.likeContainer p {
+    font-size: 14px;
+}

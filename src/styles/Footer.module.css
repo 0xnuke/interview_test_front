@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    border-top: solid 1.5px var(--border-gray);
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+
+.menu div{
+    color: var(--gray-font-color);
+}
+
+.menu p{
+    color: var(--gray-font-color);
+}
+
+.menu:nth-child(4) div{
+    color: var(--pr-font-color);
+}
+
+.menu:nth-child(4) p{
+    color: var(--pr-font-color);
+}

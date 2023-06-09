@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dateContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.dateContainer div{
+    color: var(--pr-font-color);
+}
+
+.typeSelector {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typeSelector li {
+    display: flex;
+    padding: 4px 16px;
+    border: solid 1px var(--border-pr);
+    border-radius: 100px;
+    cursor: pointer;
+    color: var(--pr-font-color);
+}
+
+.typeSelector li:hover {
+    color: var(--pr-color);
+    opacity: .8;
+}
+
+.typeSelector li  div{
+    padding-right: 8px;
+}

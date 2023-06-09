@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    height: 10vh;
+    border-top: solid 1.5px var(--border-gray);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu svg {
+    margin-right: 24px;
+    font-size: 36px;
+    color: var(--gray-font-color);
+}
+
+.inputContainer {
+    width: 200px;
+    height: 50px;
+}
+
+.inputContainer input[type="text"] {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border-gray);
+    padding: 0 16px;
+    font-size: 16px;
+}
